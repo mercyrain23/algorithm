@@ -1,0 +1,7 @@
+SELECT DISTINCT(CART_ID)
+FROM CART_PRODUCTS
+WHERE CART_ID IN (SELECT
+                    CART_ID
+                FROM CART_PRODUCTS
+                WHERE NAME = "MILK")
+AND NAME="Yogurt"
