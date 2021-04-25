@@ -1,11 +1,10 @@
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class StackQueue07 {
+public class StackQueue07Queue {
     public static void main(String[] args) {
-        StackQueue07 T = new StackQueue07();
+        StackQueue07Queue T = new StackQueue07Queue();
 
         Scanner sc = new Scanner(System.in);
         String str1 = sc.next();

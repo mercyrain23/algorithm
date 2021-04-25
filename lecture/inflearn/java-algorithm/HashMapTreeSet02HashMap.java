@@ -1,9 +1,9 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class HashMapTreeSet02 {
+public class HashMapTreeSet02HashMap {
     public static void main(String[] args) {
-        HashMapTreeSet02 T = new HashMapTreeSet02();
+        HashMapTreeSet02HashMap T = new HashMapTreeSet02HashMap();
 
         Scanner sc = new Scanner(System.in);
         String str1 = sc.next();

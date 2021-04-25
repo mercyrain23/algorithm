@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Array04 {
+public class Array04Fibonacci {
 
     public static void main(String[] args) {
-        Array04 T = new Array04();
+        Array04Fibonacci T = new Array04Fibonacci();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 //        for(int i: T.solution(n))

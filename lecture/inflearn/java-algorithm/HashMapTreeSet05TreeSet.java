@@ -2,10 +2,10 @@ import java.util.Collections;
 import java.util.Scanner;
 import java.util.TreeSet;
 
-public class HashMapTreeSet05 {
+public class HashMapTreeSet05TreeSet {
 
     public static void main(String[] args) {
-        HashMapTreeSet05 T = new HashMapTreeSet05();
+        HashMapTreeSet05TreeSet T = new HashMapTreeSet05TreeSet();
 
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();

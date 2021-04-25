@@ -10,9 +10,9 @@ class Person {
         this.priority = priority;
     }
 }
-public class StackQueue08 {
+public class StackQueue08Queue {
     public static void main(String[] args) {
-        StackQueue08 T = new StackQueue08();
+        StackQueue08Queue T = new StackQueue08Queue();
 
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();

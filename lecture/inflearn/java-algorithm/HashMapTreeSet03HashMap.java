@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class HashMapTreeSet03 {
+public class HashMapTreeSet03HashMap {
     public static void main(String[] args)  {
-        HashMapTreeSet03 T = new HashMapTreeSet03();
+        HashMapTreeSet03HashMap T = new HashMapTreeSet03HashMap();
 
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
