@@ -13,12 +13,12 @@ import java.util.Scanner;
 3 4
 
  */
-public class DFS09Combination {
+public class DBFS09DFSCombination {
     static int N, M;
     static int[] combi;
 
     public static void main(String[] args) {
-        DFS09Combination T = new DFS09Combination();
+        DBFS09DFSCombination T = new DBFS09DFSCombination();
 
         Scanner sc = new Scanner(System.in);
         N = sc.nextInt();

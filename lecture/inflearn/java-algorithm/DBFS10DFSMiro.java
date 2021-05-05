@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 8
  */
-public class DFS10Miro {
+public class DBFS10DFSMiro {
     // 12시, 3시, 6시, 9시 
     static int[] dx = {-1, 0, 1, 0};
     static int[] dy = {0, 1, 0, -1};
@@ -21,7 +21,7 @@ public class DFS10Miro {
     static int answer = 0;
 
     public static void main(String[] args) {
-        DFS10Miro T = new DFS10Miro();
+        DBFS10DFSMiro T = new DBFS10DFSMiro();
         Scanner sc = new Scanner(System.in);
         board = new int[8][8];
         for(int i = 1; i <= 7; i++) {

@@ -11,11 +11,11 @@ import java.util.Scanner;
 
 3
  */
-public class DFS05 {
+public class DBFS05DFS {
     static int answer = Integer.MAX_VALUE, N, M;
 
     public static void main(String[] args) {
-        DFS05 T = new DFS05();
+        DBFS05DFS T = new DBFS05DFS();
 
         Scanner sc = new Scanner(System.in);
         N = sc.nextInt();

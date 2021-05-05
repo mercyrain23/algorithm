@@ -8,11 +8,11 @@ import java.util.Scanner;
 10
 
  */
-public class DFS07CombiMemoization {
+public class DBFS07DFSCombiMemoization {
     int[][] memo = new int[35][35]; // 메모이제이션
 
     public static void main(String[] args) {
-        DFS07CombiMemoization T = new DFS07CombiMemoization();
+        DBFS07DFSCombiMemoization T = new DBFS07DFSCombiMemoization();
 
         Scanner sc = new Scanner(System.in);
 
