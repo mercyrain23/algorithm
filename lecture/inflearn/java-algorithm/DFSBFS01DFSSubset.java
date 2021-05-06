@@ -7,13 +7,13 @@ import java.util.Scanner;
 
 YES
  */
-public class DBFS01DFSSubset {
+public class DFSBFS01DFSSubset {
     static String answer = "NO";
     static int n, total = 0;
     boolean flag = false;
 
     public static void main(String[] args) {
-        DBFS01DFSSubset T = new DBFS01DFSSubset();
+        DFSBFS01DFSSubset T = new DFSBFS01DFSSubset();
 
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();

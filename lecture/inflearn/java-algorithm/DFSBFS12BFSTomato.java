@@ -23,7 +23,7 @@ import java.util.Scanner;
 //        this.y = y;
 //    }
 //}
-public class DBFS12BFSTomato {
+public class DFSBFS12BFSTomato {
     static int M, N;
     static int[] dx = {-1, 0, 1, 0};
     static int[] dy = {0, 1, 0, -1};
@@ -31,7 +31,7 @@ public class DBFS12BFSTomato {
     static Queue<Point> queue = new LinkedList<>();
 
     public static void main(String[] args) {
-        DBFS12BFSTomato T = new DBFS12BFSTomato();
+        DFSBFS12BFSTomato T = new DFSBFS12BFSTomato();
 
         Scanner sc = new Scanner(System.in);
 

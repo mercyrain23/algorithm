@@ -1,3 +1,4 @@
+//
 // Tree 말단 노드까지의 까장 짧은 경로(BFS)
 
 //class Node {
@@ -12,11 +13,11 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Tree06BFS {
+public class BFSTree10 {
     Node root;
 
     public static void main(String[] args) {
-        Tree06BFS tree = new Tree06BFS();
+        BFSTree10 tree = new BFSTree10();
         tree.root = new Node(1);
         tree.root.lt = new Node(2);
         tree.root.rt = new Node(3);

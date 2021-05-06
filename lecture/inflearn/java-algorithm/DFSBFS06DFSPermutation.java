@@ -16,12 +16,12 @@ import java.util.Scanner;
 9 6
 
  */
-public class DBFS06DFSPermutation {
+public class DFSBFS06DFSPermutation {
     static int N, M;
     static int[] check, pm;
 
     public static void main(String[] args) {
-        DBFS06DFSPermutation T = new DBFS06DFSPermutation();
+        DFSBFS06DFSPermutation T = new DFSBFS06DFSPermutation();
 
         Scanner sc = new Scanner(System.in);
 

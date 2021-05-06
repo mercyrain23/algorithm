@@ -10,11 +10,11 @@ import java.util.Scanner;
 
 242
  */
-public class DBFS02DFSMax {
+public class DFSBFS02DFSMax {
     static int N, C, answer = Integer.MIN_VALUE;
 
     public static void main(String[] args) {
-        DBFS02DFSMax T = new DBFS02DFSMax();
+        DFSBFS02DFSMax T = new DFSBFS02DFSMax();
 
         Scanner sc = new Scanner(System.in);
         C = sc.nextInt();

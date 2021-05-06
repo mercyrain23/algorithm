@@ -24,14 +24,14 @@ import java.util.Scanner;
 //        this.y = y;
 //    }
 //}
-public class DBFS11BFSMiro {
+public class DFSBFS11BFSMiro {
     static int[] dx = {-1, 0, 1, 0};
     static int[] dy = {0, 1, 0, -1};
     static int[][] board, dis;
 
     public static void main(String[] args) {
 
-        DBFS11BFSMiro T = new DBFS11BFSMiro();
+        DFSBFS11BFSMiro T = new DFSBFS11BFSMiro();
 
         Scanner sc = new Scanner(System.in);
         board = new int[8][8];

@@ -1,4 +1,6 @@
-// BFS - 이진 트리 레벨 탐색
+/*
+7. 이진트리 레벨탐색(BFS : Breadth-First Search)
+ */
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -11,11 +13,11 @@ class Node2 {
     }
 }
 
-public class Tree03BFS {
+public class BFSTree07 {
     Node2 root;
 
     public static void main(String[] args) {
-        Tree03BFS tree = new Tree03BFS();
+        BFSTree07 tree = new BFSTree07();
         tree.root = new Node2(1);
         tree.root.lt = new Node2(2);
         tree.root.rt = new Node2(3);
