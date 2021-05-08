@@ -47,7 +47,7 @@ public class DFSBFS11BFSMiro {
         else System.out.println(dis[7][7]);
     }
 
-    private void BFS(int x, int y) {
+    private void BFS(int x, int y) { 
         Queue<Point> queue = new LinkedList<>();
         queue.offer(new Point(x, y));
         board[x][y] = 1;

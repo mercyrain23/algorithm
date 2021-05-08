@@ -13,11 +13,11 @@ class Node2 {
     }
 }
 
-public class BFSTree07 {
+public class BFS07Tree {
     Node2 root;
 
     public static void main(String[] args) {
-        BFSTree07 tree = new BFSTree07();
+        BFS07Tree tree = new BFS07Tree();
         tree.root = new Node2(1);
         tree.root.lt = new Node2(2);
         tree.root.rt = new Node2(3);

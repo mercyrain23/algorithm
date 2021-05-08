@@ -14,12 +14,12 @@ import java.util.Scanner;
 3 2
 3 3
  */
-public class DFS04Permutation {
+public class DFSBFS04DFSPermutation {
     static int N, M;
     static int[] pm;
 
     public static void main(String[] args) {
-        DFS04Permutation T = new DFS04Permutation();
+        DFSBFS04DFSPermutation T = new DFSBFS04DFSPermutation();
 
         Scanner sc = new Scanner(System.in);
         N = sc.nextInt();

@@ -1,7 +1,6 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
-// 경로 탐색(DFS) - 방향 그래프, 인접 리스트
+// 경로 탐색(DFS) - 방향 그래프, 인접 행렬, 상태 트리
 /*
 1번에서 N번까지 경로 가짓수
 5 9
@@ -17,27 +16,25 @@ import java.util.Scanner;
 
 6
  */
-public class Graph02ArrayList {
+public class Graph12DFS {
 
     static int n, m, answer = 0;
-    static ArrayList<ArrayList<Integer>> graph;
+    static int[][] graph;
     static int[] check;
 
     public static void main(String[] args) {
-        Graph02ArrayList T = new Graph02ArrayList();
+        Graph12DFS T = new Graph12DFS();
 
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
         m = sc.nextInt();
+        graph = new int[n+1][n+1];
         check = new int[n+1];
-        graph = new ArrayList<ArrayList<Integer>>();
-        for(int i = 0; i <= n; i++) {
-            graph.add(new ArrayList<Integer>());
-        }
+
         for(int i = 0; i < m; i++) {
             int a = sc.nextInt();
             int b = sc.nextInt();
-            graph.get(a).add(b);
+            graph[a][b] = 1;
         }
         check[1] = 1; // 출발점
         T.DFS(1);
@@ -47,11 +44,11 @@ public class Graph02ArrayList {
     private void DFS(int v) {
         if(v == n) answer++;
         else {
-            for(int nv: graph.get(v)) {
-                if(check[nv] == 0) {
-                    check[nv] = 1;
-                    DFS(nv);
-                    check[nv] = 0;
+            for(int i = 1; i <= n; i++) {
+                if(graph[v][i] == 1 && check[i] == 0) { //방문하지 않은 노드 중 갈 수 있는 노드
+                        check[i] = 1;
+                        DFS(i);
+                        check[i] = 0; // 재귀에서 back 하면 다시 체크를 풀어줌
                 }
             }
         }

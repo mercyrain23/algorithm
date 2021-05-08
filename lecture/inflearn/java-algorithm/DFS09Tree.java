@@ -9,12 +9,12 @@
 //    }
 //}
 
-public class Tree05DFS {
+public class DFS09Tree {
      Node root;
 
 
     public static void main(String[] args) {
-        Tree05DFS tree = new Tree05DFS();
+        DFS09Tree tree = new DFS09Tree();
         tree.root = new Node(1);
         tree.root.lt = new Node(2);
         tree.root.rt = new Node(3);

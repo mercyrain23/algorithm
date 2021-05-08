@@ -7,11 +7,11 @@ class Node {
         lt = rt = null;
     }
 }
-public class Tree01DFS {
+public class DFS05TreeTraversal {
     Node root;
 
     public static void main(String[] args) {
-        Tree01DFS tree = new Tree01DFS();
+        DFS05TreeTraversal tree = new DFS05TreeTraversal();
         tree.root = new Node(1);
         tree.root.lt = new Node(2);
         tree.root.rt = new Node(3);

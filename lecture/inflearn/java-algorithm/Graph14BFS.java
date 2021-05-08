@@ -23,14 +23,14 @@ import java.util.Scanner;
 6:2
 
  */
-public class Graph03BFS {
+public class Graph14BFS {
 
     static int n, m;
     static ArrayList<ArrayList<Integer>> graph;
     static int[] check, dis;
 
     public static void main(String[] args) {
-        Graph03BFS T = new Graph03BFS();
+        Graph14BFS T = new Graph14BFS();
 
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt(); // 정점

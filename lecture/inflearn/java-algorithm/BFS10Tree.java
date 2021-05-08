@@ -13,11 +13,11 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BFSTree10 {
+public class BFS10Tree {
     Node root;
 
     public static void main(String[] args) {
-        BFSTree10 tree = new BFSTree10();
+        BFS10Tree tree = new BFS10Tree();
         tree.root = new Node(1);
         tree.root.lt = new Node(2);
         tree.root.rt = new Node(3);
