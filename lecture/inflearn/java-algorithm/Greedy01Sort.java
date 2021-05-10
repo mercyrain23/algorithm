@@ -3,6 +3,18 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
 
+/*
+씨름선수
+
+5
+172 67
+183 65
+180 70
+170 72
+181 60
+
+3
+ */
 class Body implements Comparable<Body> {
     int height, weight;
 
